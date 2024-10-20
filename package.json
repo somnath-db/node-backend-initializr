@@ -1,0 +1,20 @@
+{
+  "name": "videotube",
+  "version": "1.0.0",
+  "description": "a video sharing library",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write ."
+  },
+  "author": "somnath dutta banik",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
+  }
+ 
+}
